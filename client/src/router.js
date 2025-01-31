@@ -4,11 +4,15 @@ const pages = [
   'Home', 'About', 'Characters', 'Colors', 'Games', 'News', 'Players', 'Privacy', 'Terms', 'Tokens'
 ];
 
+const calcRoute = (name) => {
+  return (name == 'Home') ? '/' : '/' + name.split(' ')[0].toLowerCase();
+}
+
 const routes = pages.map((name) => {
   return {
-    path: (name == 'Home') ? '/' : '/' + name.toLowerCase(),
+    path: calcRoute(name),
     name: name,
-    component: () => import(`./pages/${name}.vue`)
+    component: () => import(`./pages/${name.split(' ')[0]}.vue`)
   }
 });
 

@@ -10,7 +10,7 @@
     --font-sans: Lato, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-serif: "Goudy Bookletter 1911", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 
-     --color-gray-50: oklch(0.985 0 0);
+    --color-gray-50: oklch(0.985 0 0);
     --color-gray-100: oklch(0.967 0 0);
     --color-gray-200: oklch(0.928 0 0);
     --color-gray-300: oklch(0.872 0 0);
