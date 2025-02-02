@@ -24,13 +24,13 @@ export default {
 </script>
 
 <template>
-  <div class="flex h-screen bg-gray-100">
+  <div class="flex h-screen bg-gray-800">
 
     <!-- sidebar -->
-    <div class="hidden md:flex flex-col w-64 bg-gray-600">
+    <div class="hidden md:flex flex-col w-52 bg-gray-600">
 
       <!-- logo + home link -->
-      <div class="flex items-center justify-center h-16 bg-gray-700 px-10 border-gray-800 border-b-1">
+      <div class="flex items-center justify-center h-16 bg-gray-700 px-6 border-gray-800 border-b-1">
         <img src="/sd-logo-dark.svg">
       </div>
 
