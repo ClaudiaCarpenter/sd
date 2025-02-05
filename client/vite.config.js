@@ -5,14 +5,11 @@ import { resolve } from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [tailwindcss(), vue()],
+  plugins: [vue(), tailwindcss()],
   resolve: {
-     alias: [{ find: "@", replacement: resolve(__dirname, "./src") }]
-  },
-  server: {
-    fs: {
-      cachedChecks: false
-    }
+    alias: {
+      "@": resolve(__dirname, "src"),
+    },
   }
 })
 

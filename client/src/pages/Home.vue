@@ -1,9 +1,9 @@
 <script setup>
-import DarkToggle from './DarkToggle.vue';
+import DarkToggle from '@/components/DarkToggle.vue';
 </script>
 
 <template>
-    <div class="m-6 bg-red-50">
+    <div class="m-6">
         Welcome! <DarkToggle />
     </div>
 </template>
