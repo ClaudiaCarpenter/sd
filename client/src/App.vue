@@ -1,4 +1,6 @@
 <script>
+//import { DarkToggle } from '../components/DarkToggle';
+import Home from './pages/Home.vue';
 export default {
   data() {
     return {
@@ -58,15 +60,19 @@ export default {
         </nav>
         <div class="px-6 pb-4 bg-gray-700 text-xs text-gray-400">
           &copy; 2025 by sudo-dragon
+          <!-- <DarkToggle /> -->
         </div>
       </div>      
     </div>
 
     <!-- Main content -->
     <div class="flex flex-col flex-1 overflow-y-auto bg-gray-800 text-gray-200">
-      <router-view />
+      <Home />
+      <!-- <router-view /> -->
     </div>
 
 
   </div>
 </template>
+
+
