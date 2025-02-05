@@ -6,6 +6,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
     --font-sans: Lato, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-serif: "Goudy Bookletter 1911", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
