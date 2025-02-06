@@ -9,7 +9,11 @@ export default {
     "./src/**/*.{vue,js}",
   ],
   theme: {
-    extend: {},
+    extend:  {
+      colors: {
+        "info": "--color-gray-600",
+      },
+    },
   },
   daisyui: {
     themes: ["light", "dark"],
@@ -20,4 +24,17 @@ export default {
     aspectRatio,
     daisyui
   ],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          // importing the built-in 'light' theme
+          // and setting the color values for '--primary-muted'
+          // (numbers are OKLCH values)
+          ...require("daisyui/src/theming/themes")["light"],
+          "--primary-muted": "65% 0.2 295",
+        },
+      },
+    ],
+  },
 }
