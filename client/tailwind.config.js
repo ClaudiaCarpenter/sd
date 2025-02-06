@@ -15,26 +15,9 @@ export default {
       },
     },
   },
-  daisyui: {
-    themes: ["light", "dark"],
-  },
   plugins: [
     typography,
     forms,
-    aspectRatio,
-    daisyui
-  ],
-  daisyui: {
-    themes: [
-      {
-        light: {
-          // importing the built-in 'light' theme
-          // and setting the color values for '--primary-muted'
-          // (numbers are OKLCH values)
-          ...require("daisyui/src/theming/themes")["light"],
-          "--primary-muted": "65% 0.2 295",
-        },
-      },
-    ],
-  },
+    aspectRatio
+  ]
 }
