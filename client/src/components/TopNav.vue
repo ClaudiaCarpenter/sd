@@ -1,10 +1,8 @@
 <script setup>
 import { useDark } from '@vueuse/core';
 import { useToggle } from '@vueuse/shared';
-
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
-
 </script>
 
 <template>

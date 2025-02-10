@@ -378,7 +378,6 @@ img.thumbborder {
 
 #searchbox #goButton {
     border: 0;
-    background: url(/images/s.gif) no-repeat top left;
     height: 25px;
     width: 27px;
 }
@@ -401,7 +400,6 @@ img.thumbborder {
 }
 
 #nav button {
-    background: url(/images/buttonbg.gif) no-repeat center;
     border: 0;
     height: 23px;
     width: 83px;
